@@ -1,0 +1,12 @@
+{
+  "name": "Panning",
+  "version": "1.0",
+  "description": "PDF-like panning on any webpage.",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["index.js"]
+    }
+  ]
+}
