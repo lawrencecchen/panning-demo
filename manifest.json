@@ -1,5 +1,5 @@
 {
-  "name": "Panning",
+  "name": "Page Panner",
   "version": "1.0",
   "description": "PDF-like panning on any webpage.",
   "manifest_version": 2,
@@ -8,5 +8,9 @@
       "matches": ["<all_urls>"],
       "js": ["index.js"]
     }
-  ]
+  ],
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": "grabbing.svg"
+  }
 }
